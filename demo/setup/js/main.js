@@ -15,10 +15,8 @@ requirejs.config({
 });
 
 // Start the main app logic.
-requirejs(['demo/my/shirt'],
-function   (Shirt) {
-    //jQuery, canvas and the app/sub module are all
-    //loaded and can be used here now.
-    debugger;
+requirejs(['Array'],
+function (Array) {
     console.log('Hello World!');
+    debugger;
 });
